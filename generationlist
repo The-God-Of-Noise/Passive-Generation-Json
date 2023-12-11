@@ -1,0 +1,34 @@
+{
+    "production": [
+        {
+            "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
+            "produces": [
+                {
+                    "intervalSeconds": 10,
+                    "alternateItemChance": 0.5,
+                    "items": [
+                        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Yuty.PrimalItemConsumable_Egg_Yuty'"
+                    ],
+                    "alternateItems": [
+                        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide'"
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'",
+            "produces": [
+                {
+                    "intervalSeconds": 10,
+                    "alternateItemChance": 0.5,
+                    "items": [
+                        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Para.PrimalItemConsumable_Egg_Para'"
+                    ],
+                    "alternateItems": [
+                        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers'"
+                    ]
+                }
+            ]
+        }
+    ]
+}
